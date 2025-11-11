@@ -22,7 +22,7 @@ Once you meet your activity goal — or activate a one-day pass if you're not fe
 ### 👤 Developer Information
 **Developer:**  Bryant Lin  
 **Contact:** [bryant530@gmail.com](mailto:bryant530@gmail.com)  
-**Website:** [https://yourname.github.io/exercise-lock](https://yourname.github.io/exercise-lock)
+**Website:** [https://github.com/bryantlin/exercise-to-use](https://github.com/bryantlin/exercise-to-use)
 
 ---
 
