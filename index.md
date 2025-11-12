@@ -19,13 +19,6 @@ Once you meet your activity goal — or activate a one-day pass if you're not fe
 
 ---
 
-### 👤 Developer Information
-**Developer:**  Bryant Lin  
-**Contact:** [bryant530@gmail.com](mailto:bryant530@gmail.com)  
-**Website:** [https://github.com/bryantlin/exercise-to-use](https://github.com/bryantlin/exercise-to-use)
-
----
-
 ### 🕊️ Privacy Policy Summary
 This app does not collect, transmit, or store any personal data outside your device.  
 All permissions (Health data & Screen Time) are optional and can be revoked at any time in iOS Settings.
