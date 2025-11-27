@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercise Lock 支援中心｜Support</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    :root {
+      --bg: #f5f5f7;
+      --card: #ffffff;
+      --primary: #ff7b3a;
+      --text-main: #1c1c1e;
+      --text-sub: #6e6e73;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text",
+                   system-ui, -apple-system, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text-main);
+      line-height: 1.6;
+    }
+
+    .page {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 24px 16px 40px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 24px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 26px;
+      font-weight: 700;
+    }
+
+    header p {
+      margin: 8px 0 0;
+      color: var(--text-sub);
+      font-size: 14px;
+    }
+
+    .card {
+      background: var(--card);
+      border-radius: 18px;
+      padding: 20px 18px;
+      margin-bottom: 18px;
+      box-shadow:
+        0 10px 30px rgba(0, 0, 0, 0.04),
+        0 1px 3px rgba(0, 0, 0, 0.06);
+    }
+
+    h2 {
+      font-size: 20px;
+      margin: 0 0 12px;
+    }
+
+    h3 {
+      font-size: 16px;
+      margin: 16px 0 8px;
+    }
+
+    p {
+      margin: 4px 0 8px;
+      font-size: 14px;
+    }
+
+    .faq-item {
+      margin-bottom: 10px;
+    }
+
+    .faq-q {
+      font-weight: 600;
+    }
+
+    .tagline {
+      color: var(--text-sub);
+      font-size: 13px;
+    }
+
+    a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 999px;
+      background: rgba(255, 123, 58, 0.08);
+      color: var(--primary);
+      font-size: 11px;
+      font-weight: 600;
+      margin-left: 4px;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 24px;
+      font-size: 12px;
+      color: var(--text-sub);
+    }
+
+    @media (min-width: 768px) {
+      .page {
+        padding: 32px 24px 56px;
+      }
+
+      header h1 {
+        font-size: 30px;
+      }
+
+      .card {
+        padding: 24px 22px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <h1>Exercise Lock 支援中心｜Support</h1>
+      <p class="tagline">運動完再解鎖手機，陪你一起建立更健康的使用習慣。</p>
+    </header>
+
+    <!-- 中文版 -->
+    <section class="card">
+      <h2>中文支援（繁體）<span class="badge">ZH-TW</span></h2>
+
+      <h3>聯絡我們</h3>
+      <p>
+        感謝你使用 <strong>Exercise Lock</strong>！如果在使用過程中遇到任何問題，或有功能建議與回饋，歡迎寫信給我們：
+      </p>
+      <p>
+        📧 客服信箱：
+        <a href="mailto:support@exerciselock.app">support@exerciselock.app</a><br>
+        （請簡要說明你的問題，並附上裝置型號與 iOS 版本，方便我們更快協助你）
+      </p>
+
+      <h3>常見問題（FAQ）</h3>
+
+      <div class="faq-item">
+        <p class="faq-q">Q：訂閱後要怎麼取消？</p>
+        <p>
+          A：你可以隨時前往 iPhone 的「設定」→ 點選你的 Apple ID →
+          「訂閱項目」，找到 Exercise Lock 後即可管理或取消訂閱。
+        </p>
+      </div>
+
+      <div class="faq-item">
+        <p class="faq-q">Q：為什麼運動完，App 沒有馬上解鎖？</p>
+        <p>
+          A：由於 iOS 系統與背景更新機制的限制，鎖定／解鎖有時可能會稍有延遲。
+          建議你：
+        </p>
+        <ul>
+          <li>確認運動資料已正確寫入「健康」App</li>
+          <li>重新開啟 Exercise Lock，以立即更新狀態</li>
+          <li>在系統設定中開啟「背景 App 重新整理」，避免強制關閉 App</li>
+        </ul>
+      </div>
+
+      <div class="faq-item">
+        <p class="faq-q">Q：7 天免費試用結束之後會怎樣？</p>
+        <p>
+          A：試用結束後，訂閱會自動續訂並依你選擇的方案（月訂或年訂）收費。
+          如果你不想繼續使用服務，請在試用期結束前於「訂閱項目」頁面取消即可。
+        </p>
+      </div>
+
+      <div class="faq-item">
+        <p class="faq-q">Q：背景鎖定功能看起來不太穩定？</p>
+        <p>
+          A：請確認：
+        </p>
+        <ul>
+          <li>已允許 Exercise Lock 的「背景 App 重新整理」</li>
+          <li>請盡量不要將 App 往上滑強制關閉</li>
+          <li>保持網路連線穩定，以便同步狀態與通知</li>
+        </ul>
+      </div>
+
+      <h3>訂閱與試用說明</h3>
+      <p>
+        Exercise Lock 提供：
+      </p>
+      <ul>
+        <li>7 天免費試用</li>
+        <li>月訂方案：NT$60 / 月</li>
+        <li>年訂方案：NT$600 / 年（最優惠）</li>
+      </ul>
+      <p>
+        試用結束後將自動續訂，你可隨時於 App Store 帳戶設定中取消，不需額外手續。
+      </p>
+    </section>
+
+    <!-- English version -->
+    <section class="card">
+      <h2>English Support<span class="badge">EN</span></h2>
+
+      <h3>Contact Us</h3>
+      <p>
+        Thank you for using <strong>Exercise Lock</strong>! If you encounter any issues
+        or have feature requests and feedback, feel free to reach out:
+      </p>
+      <p>
+        📧 Support Email:
+        <a href="mailto:support@exerciselock.app">support@exerciselock.app</a><br>
+        (Please include a short description, your device model, and iOS version so we can
+        assist you more efficiently.)
+      </p>
+
+      <h3>Frequently Asked Questions</h3>
+
+      <div class="faq-item">
+        <p class="faq-q">Q: How do I cancel my subscription?</p>
+        <p>
+          A: On your iPhone, go to <strong>Settings → Apple ID → Subscriptions</strong>,
+          find Exercise Lock, and you can manage or cancel your plan at any time.
+        </p>
+      </div>
+
+      <div class="faq-item">
+        <p class="faq-q">Q: Why isn’t the app unlocking immediately after I exercise?</p>
+        <p>
+          A: Due to iOS system and background update limitations, there may be a short delay
+          in locking/unlocking. Please:
+        </p>
+        <ul>
+          <li>Make sure workout data has been saved to the Apple Health app</li>
+          <li>Reopen Exercise Lock to refresh your status immediately</li>
+          <li>Enable “Background App Refresh” and avoid force-closing the app</li>
+        </ul>
+      </div>
+
+      <div class="faq-item">
+        <p class="faq-q">Q: What happens after the 7-day free trial ends?</p>
+        <p>
+          A: After the free trial, your subscription will automatically renew based on the
+          plan you selected (monthly or yearly). If you no longer wish to continue,
+          simply cancel in the Subscriptions page before the trial ends.
+        </p>
+      </div>
+
+      <div class="faq-item">
+        <p class="faq-q">Q: The background locking feels unstable. What can I do?</p>
+        <p>
+          A: Please check:
+        </p>
+        <ul>
+          <li>“Background App Refresh” is enabled for Exercise Lock</li>
+          <li>You’re not frequently force-closing the app</li>
+          <li>Your network connection is stable for syncing and notifications</li>
+        </ul>
+      </div>
+
+      <h3>Subscription & Trial</h3>
+      <p>
+        Exercise Lock offers:
+      </p>
+      <ul>
+        <li>7-day free trial</li>
+        <li>Monthly plan: NT$60 / month</li>
+        <li>Yearly plan: NT$600 / year (best value)</li>
+      </ul>
+      <p>
+        After the trial ends, your subscription will auto-renew. You can cancel anytime
+        in your App Store account settings with no extra fees.
+      </p>
+    </section>
+
+    <div class="footer">
+      © <span id="year"></span> Exercise Lock. All rights reserved.
+    </div>
+  </div>
+
+  <script>
+    // 自動顯示今年年份
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
