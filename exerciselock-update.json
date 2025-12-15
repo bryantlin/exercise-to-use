@@ -1,0 +1,6 @@
+{
+  "latestVersion": "1.3",
+  "message_zh": "這次修正了鎖定/解鎖與通知的問題，建議更新到最新版。",
+  "message_en": "Important fixes for lock/unlock and notifications. Please update.",
+  "appStoreURL": "https://apps.apple.com/tw/app/exercise-lock/id6755154313"
+}
